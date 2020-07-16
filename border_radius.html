@@ -33,23 +33,42 @@
                <input type="color" class="color">
             </div>
 
+            <div class="border-width rang-inp">
+               <p>Border Width</p>
+               <input type="text" class="border-inp" value="0">
+               <input type="range" min='0' max='30' step='1' class="border-rang" value="1">
+            </div>
+
             <div class="background-color">
                <p>Background Color</p>
                <input type="color" class="color">
             </div>
 
-            <div class="border-width">
-               <p>Border Width</p>
-               <input type="text" class="border-inp" value="0">
-               <input type="range" min='0' max='100' step='1' class="border-rang" value="5">
+
+            <div class="border-position">
+               <p>Border Position</p>
+               <select name="" id="" class="border-position-select">
+                  <option value="All">All</option>
+                  <option value="Top">Top</option>
+                  <option value="Bottom">Bottom</option>
+                  <option value="Right">Right</option>
+                  <option value="Left">Left</option>
+               </select>
             </div>
 
             <div class="border-style">
                <p>Border Style</p>
-            </div>
-
-            <div class="border-position">
-               <p>Border Position</p>
+               <select name="" id="" class="border-style-select">
+                  <option value="solid">solid</option>
+                  <option value="dashed">dashed</option>
+                  <option value="dotted">dotted</option>
+                  <option value="inset">inset</option>
+                  <option value="outset">outset</option>
+                  <option value="groove">groove</option>
+                  <option value="ridge">ridge</option>
+                  <option value="hidden">hidden</option>
+                  <option value="none">none</option>
+               </select>
             </div>
 
          </div>

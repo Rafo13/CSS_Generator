@@ -75,7 +75,6 @@ h1 {
    height: 50%;
    background-color: rgb(230, 230, 230);
    border: 1px solid #000;
-
 }
 
 
@@ -87,20 +86,21 @@ h1 {
 .container .rang-inp {
    position: relative;
    /* border: 1px solid; */
-   width: 100%;
+   /* width: 100%; */
+   width: 190px;
    height: 7vh;
-   margin: 9% 0;
+   margin: 13% 0;
 }
 
-.container .contInput input[type=text] {
+input[type=text] {
    width: 20%;
    margin-left: 80%;
 }
 
-.container .contInput input[type=range] {
+input[type=range] {
    margin: 5% 0;
    width: 100%;
-   color: orange;
+   /* color: orange; */
 }
 
 .rang-inp p {
@@ -110,11 +110,57 @@ h1 {
 }
 
 .contInput .general-rang {
-   margin: 0 0 20% 0;
+   margin: 0 0 27% 0;
 }
 
 
-footer{
+
+
+
+
+/*բլոկի style-ների ոճերը */
+.style-block{
+   /* border: 2px solid red; */
+   width: 190px;
+}
+
+.style-block .border-color{
+   margin: 0 0 30px 0;
+   /* border: 1px solid; */
+   display: flex;
+   justify-content: space-between;
+}
+.style-block .background-color {
+   margin: 0 0 40px 0;
+   /* border: 1px solid; */
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.style-block .border-width {
+   margin: 0 0 50px 0;
+}
+
+.border-style,
+.border-position {
+   display: flex;
+   /* border: 1px solid; */
+   justify-content: space-between;
+}
+
+.border-position {
+   margin: 0 0 85px 0;
+}
+
+
+
+
+
+
+
+
+footer {
    border: 1px solid green;
    display: flex;
    justify-content: center;
