@@ -12,7 +12,7 @@
 
 
    <main class="main">
-      <h1>CSS Generator Tools</h1>
+      <!-- <h1>CSS Generator Tools</h1>
 
       <nav class="nav">
          <ul class="ul">
@@ -22,7 +22,7 @@
             <li><a href="button_generator.html" class="button_generator">Button Generator</a></li>
             <li><a href="gradients.html" class="gradients">CSS Gradient</a></li>
          </ul>
-      </nav>
+      </nav> -->
 
 
       <div class="container">
@@ -30,18 +30,12 @@
          <div class="style-block">
             <div class="border-color">
                <p>Border Color</p>
-               <input type="color" class="color">
-            </div>
-
-            <div class="border-width rang-inp">
-               <p>Border Width</p>
-               <input type="text" class="border-inp" value="0">
-               <input type="range" min='0' max='30' step='1' class="border-rang" value="1">
+               <input type="color" class="bord-color">
             </div>
 
             <div class="background-color">
                <p>Background Color</p>
-               <input type="color" class="color">
+               <input type="color" class="back-color">
             </div>
 
 
@@ -103,11 +97,22 @@
                <input type="text" class="inp1" value="0">
                <input type="range" min='0' max='100' step='1' class="rang" value="5">
             </div>
+
+            <div class="border-width rang-inp">
+               <p>Border Width</p>
+               <input type="text" class="border-inp" value="0">
+               <input type="range" min='0' max='30' step='1' class="border-rang" value="1">
+            </div>
          </div>
 
          <div id="div" class="expert">
             <div class="result">
-               <button>copy</button>
+               <a href="#" class="button">copy</a>
+               <p></p><span>border-style: </span><span class="p-border-style"></span></p>
+               <p><span>border-width: </span><span class="p-border-width"></span></p>
+               <p><span>border-color: </span><span class="p-border-color"></span></p>
+               <p><span>border-radius: </span><span class="p-border-radius"></span></p>
+               <p><span>background-color: </span><span class="p-background-color"></span></p>
             </div>
          </div>
 
